@@ -11,4 +11,4 @@ export SELECTED_DEVICES=$(bashio::config 'selected_devices')
 export PYTHONUNBUFFERED=1
 
 echo Starting Futurehome FIMP to Home Assistant
-python3 run.py serve
+/usr/bin/python3 run.py serve

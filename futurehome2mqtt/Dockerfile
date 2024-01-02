@@ -11,7 +11,6 @@ WORKDIR ${HOME}
 # Copy data for add-on
 COPY ./ $HOME/
 
-RUN pip3 install -r requirements.txt
 RUN chmod a+x /$HOME/run.sh
 
 
